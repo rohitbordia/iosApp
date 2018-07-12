@@ -15,6 +15,8 @@
 		A1DEF6C720F6740300F46A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DEF6C620F6740300F46A96 /* main.m */; };
 		A1DEF6D120F6740300F46A96 /* myWeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DEF6D020F6740300F46A96 /* myWeatherAppTests.m */; };
 		A1DEF6DC20F6740300F46A96 /* myWeatherAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DEF6DB20F6740300F46A96 /* myWeatherAppUITests.m */; };
+		A1FC482D20F7DE98009F7F9A /* WeatherHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC482B20F7DE98009F7F9A /* WeatherHeaderCell.m */; };
+		A1FC482E20F7DE98009F7F9A /* WeatherHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1FC482C20F7DE98009F7F9A /* WeatherHeaderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A1DEF6D720F6740300F46A96 /* myWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DEF6DB20F6740300F46A96 /* myWeatherAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myWeatherAppUITests.m; sourceTree = "<group>"; };
 		A1DEF6DD20F6740300F46A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FC482A20F7DE98009F7F9A /* WeatherHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherHeaderCell.h; sourceTree = "<group>"; };
+		A1FC482B20F7DE98009F7F9A /* WeatherHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherHeaderCell.m; sourceTree = "<group>"; };
+		A1FC482C20F7DE98009F7F9A /* WeatherHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherHeaderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		A1DEF6AB20F6740200F46A96 = {
 			isa = PBXGroup;
 			children = (
+				A1FC482A20F7DE98009F7F9A /* WeatherHeaderCell.h */,
+				A1FC482B20F7DE98009F7F9A /* WeatherHeaderCell.m */,
+				A1FC482C20F7DE98009F7F9A /* WeatherHeaderCell.xib */,
 				A1DEF6B620F6740200F46A96 /* myWeatherApp */,
 				A1DEF6CF20F6740300F46A96 /* myWeatherAppTests */,
 				A1DEF6DA20F6740300F46A96 /* myWeatherAppUITests */,
@@ -238,6 +246,7 @@
 				A1DEF6C420F6740300F46A96 /* LaunchScreen.storyboard in Resources */,
 				A1DEF6C120F6740300F46A96 /* Assets.xcassets in Resources */,
 				A1DEF6BF20F6740200F46A96 /* Main.storyboard in Resources */,
+				A1FC482E20F7DE98009F7F9A /* WeatherHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 				A1DEF6BC20F6740200F46A96 /* ViewController.m in Sources */,
 				A1DEF6C720F6740300F46A96 /* main.m in Sources */,
 				A1DEF6B920F6740200F46A96 /* AppDelegate.m in Sources */,
+				A1FC482D20F7DE98009F7F9A /* WeatherHeaderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

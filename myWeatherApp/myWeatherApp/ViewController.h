@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
+    
+    NSMutableArray *maxTempArray;
+    NSMutableArray *minTempArray;
+    NSMutableArray *dayArray;
+   
+    
+    IBOutlet UITableView *tableView;
+}
 
 @end
 
